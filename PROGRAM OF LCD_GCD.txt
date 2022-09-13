@@ -1,0 +1,42 @@
+importjava.util.scanner;
+public class LCM_GCD{
+public static void lcm(int a,int b){
+int max,step,lcm=0;
+if(a>b){
+max=step=a;
+}else{
+ max=step=b;
+}
+while(a!=0){
+ if(max%a==0&&max%b==
+ 0){
+     icm=max;
+     break;
+    }
+    max+=step;
+    }
+    system.out.println("LCM of given numbers is::"+lcm);
+    }
+    public static void gcd(inta,intb){
+    inti,hcf=0;
+    for(i=1;i<=a||i<=b;i++){
+    if(a%i==0&&b%i==0)
+    hcf=i;
+    }
+    system.out.println("gcd of given two numbers is::"+hcf);
+    }
+    public static void main(string void main(string 
+    argsl){
+          scanner(system.in);
+          system.out.println("enter frist 
+          number::");
+          inta=sc.nextint();
+          system.out.print.println("enter 
+          second number::");
+          int b=sc.nextint();
+          lcm(a,b);
+          gcd(a,b);
+        }
+}
+          
+          
